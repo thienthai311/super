@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Group_837" width="152.542" height="27.601" data-name="Group 837" viewBox="0 0 152.542 27.601">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#3d3d3d}
+        </style>
+    </defs>
+    <path id="prefix__polyline3" d="M1735.21 609.231h19.69v-2.4h-16.31v-7.694h12.251V596.7h-12.251v-7.089h16.31v-2.4h-19.69v22.016" class="prefix__cls-1" transform="translate(-1652.222 -583.488)"/>
+    <path id="prefix__polyline5" d="M1742.258 585.154l-2.665 2.994 8.366-2.994h-5.7" class="prefix__cls-1" transform="translate(-1649.039 -584.985)"/>
+    <path id="prefix__polyline7" d="M1767.05 606.827v-19.611h-3.077v22.016h19.9v-2.4h-16.823" class="prefix__cls-1" transform="translate(-1631.33 -583.488)"/>
+    <path id="prefix__path9" d="M1758.712 587.215l-11.2 22.016h3.784l2.864-5.7h13.426l2.888 5.7h3.745l-11.2-22.016h-4.309m-3.13 13.559l5.274-10.515 5.338 10.515z" class="prefix__cls-1" transform="translate(-1643.283 -583.488)"/>
+    <path id="prefix__path11" d="M1735.788 600.026c5.044-1.346 5.535-5.1 5.509-6.441-.3-3.933-2.952-6.37-7.713-6.37h-13.875v22.016h3.163V600h9.034l6.645 9.236h3.988s-4.783-6.215-6.75-9.205m-2.636-2.631h-10.28v-7.574h10.639c2.45 0 3.828 1.143 4.323 2.6a4.11 4.11 0 0 1-.425 3.192c-.89 1.463-2.58 1.782-4.258 1.782z" class="prefix__cls-1" transform="translate(-1663.481 -583.488)"/>
+    <path id="prefix__path13" d="M1715.016 585.056c-8.93 0-15.016 6.3-15.016 13.916 0 8.021 6.722 13.685 15.016 13.685s15.005-5.583 15.005-13.685c0-7.62-6.161-13.916-15.005-13.916m-.107 24.868a11.065 11.065 0 1 1 11.5-10.945c.004 5.98-5.327 10.945-11.5 10.945z" class="prefix__cls-1" transform="translate(-1677.797 -585.056)"/>
+    <path id="prefix__polyline15" d="M1695.385 595h2.282l4.143-7.788h-3.334l-3.091 7.788" class="prefix__cls-1" transform="translate(-1681.149 -583.488)"/>
+    <path id="prefix__polyline17" d="M1690.217 606.827v-19.611h-3.078v22.016h19.9v-2.4h-16.82" class="prefix__cls-1" transform="translate(-1687.139 -583.488)"/>
+</svg>
