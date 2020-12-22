@@ -60,10 +60,11 @@ a, a:hover {
 	transition: box-shadow 1s;
 }
 .arrow svg {
-	transition: margin-left 1s;
+	margin-left: 10px;
+	transition: transform 1s;
 }
 .arrow:hover svg {
-	margin-left: 10px;
+	transform: translateX(10px);
 }
 .section-1 .btn-trial {
 	width: 140px;
