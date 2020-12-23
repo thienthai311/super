@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
 	font-family: "Public Sans",sans-serif;
@@ -5,13 +10,14 @@ body {
 	letter-spacing: 0.49px;
 	color: #3b5262;
 }
-header {
-	background-color: #daf0fc;
-	padding-top: 40px;	
-}
 a, a:hover {
 	text-decoration: none;
 	color: #3b5262;
+}
+/*----------------------------Header-------------------------------*/
+header {
+	background-color: #daf0fc;
+	padding-top: 40px;	
 }
 .logo img {
     width: 100%;
@@ -59,6 +65,40 @@ a, a:hover {
 	white-space: nowrap;
 	transition: box-shadow 1s;
 }
+/*-----------------------Sticky---------------------------*/
+.sticky {
+	transition: background 1s; 
+}
+.sticky {
+	background:#fff !important;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-shadow: 0 0 7px 0 #ccc;
+}
+.bar {
+	display: none;
+}
+.bar1, .bar2, .bar3 {
+	width: 30px;
+	height: 3.5px;
+	background-color: #3d3d3d;
+	margin: 5px 0;
+	transition: 0.4s;
+}
+
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-5px, 5px);
+	transform: rotate(-45deg) translate(-5px, 5px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-7px, -7px);
+	transform: rotate(45deg) translate(-7px, -7px);
+}
+/*-----------------------Section---------------------------*/
 .arrow svg {
 	margin-left: 10px;
 	transition: transform 1s;
@@ -146,6 +186,7 @@ video {
 	color: #3d3d3d;
 	font-weight: 200;
 }
+/*-----------------------------Carousel-----------------------------*/
 .slider-name {
 	color: #8c8c8c;
 	font-style: italic;
@@ -176,39 +217,7 @@ video {
 	width: 10px;
 	height: 8px;
 }
-.sticky {
-	transition: background 1s; 
-}
-.sticky {
-	background:#fff !important;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	box-shadow: 0 0 7px 0 #ccc;
-}
-.bar {
-	display: none;
-}
-.bar1, .bar2, .bar3 {
-	width: 30px;
-	height: 3.5px;
-	background-color: #3d3d3d;
-	margin: 5px 0;
-	transition: 0.4s;
-}
-
-.change .bar1 {
-	-webkit-transform: rotate(-45deg) translate(-5px, 5px);
-	transform: rotate(-45deg) translate(-5px, 5px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-	-webkit-transform: rotate(45deg) translate(-7px, -7px);
-	transform: rotate(45deg) translate(-7px, -7px);
-}
-
+/*-----------------------Product-------------------------*/
 .product-item {
 	display: inline-block;
 	padding: 40px;
@@ -220,6 +229,7 @@ video {
 	-webkit-box-shadow: 3px 3px 12px 0 rgba(0,0,0,.33);
 	box-shadow: 3px 3px 12px 0 rgba(0,0,0,.33);
 }
+/*-------------------------Footer-----------------------*/
 .footer-top {
 	background-color: #d7d4af;
 	padding: 80px 0 30px 0;
@@ -258,7 +268,7 @@ video {
 	color: #f0f2f2;
 	font-size: 10px;
 }
-
+/*----------------------------Responsive-------------------------------*/
 @media (min-width: 1200px){
 	#menu .navbar {
 		margin: 0 auto;
@@ -295,5 +305,14 @@ video {
 	}
 	#menu .navbar .d-flex {
 		display: none !important;
+	}
+}
+@media (max-width: 768px){
+	.float-right {
+	    text-align: center !important;
+	    float: none !important;
+	}
+	#footer .row .col-12 {
+		justify-content: center;
 	}
 }
